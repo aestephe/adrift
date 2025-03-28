@@ -1,0 +1,449 @@
+#####################################################
+# Adrift - for Duo Axis
+# 20220501.1
+#####################################################
+
+# START SECTION 1;
+adrift-set-section1 bang;
+adrift-oscillators-gain 1.;
+adrift-interlude1-gain 0.66;
+adrift-interlude2-gain 0.66;
+adrift-section3-glitchy-chords-gain 0.8;
+adrift-resonance-gain 1.;
+adrift-concluding-texture-gain 1.;
+adrift-master-gain-dB 0.;
+del 100;
+# CUE 1;
+adrift-oscillators-new-pitch 48.;
+
+-----------------------------------------------------
+
+# CUE 2;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 53.;
+
+-----------------------------------------------------
+
+# CUE 3;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 55.;
+
+-----------------------------------------------------
+
+# CUE 4;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 52.;
+
+-----------------------------------------------------
+
+# CUE 5;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 58.;
+
+-----------------------------------------------------
+
+# CUE 6;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 55.69;
+adrift-oscillators-new-pitch 58.;
+
+-----------------------------------------------------
+
+# CUE 7;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 55.69;
+adrift-oscillators-new-pitch 58.;
+
+-----------------------------------------------------
+
+# CUE 8;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 53.;
+adrift-oscillators-new-pitch 54.5;
+
+-----------------------------------------------------
+
+# CUE 9; 
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 56.69;
+
+-----------------------------------------------------
+
+# CUE 10; 
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 47.69;
+adrift-oscillators-new-pitch 53.86;
+
+-----------------------------------------------------
+
+# CUE 11; 
+adrift-interlude1a-go bang;
+
+-----------------------------------------------------
+
+# CUE 12; 
+adrift-interlude1b-go bang;
+
+-----------------------------------------------------
+#####################################################
+
+# CUE 13; 
+# START SECTION 2;
+adrift-interlude1a-fadeout bang;
+adrift-interlude1b-fadeout bang;
+
+-----------------------------------------------------
+
+# CUE 14;
+adrift-set-section2 bang;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 51.86;
+adrift-oscillators-new-pitch 53.5;
+adrift-oscillators-new-pitch 57.69;
+
+-----------------------------------------------------
+
+# CUE 15; 
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 58.86;
+adrift-oscillators-new-pitch 60.5;
+adrift-oscillators-new-pitch 64.69;
+
+-----------------------------------------------------
+
+# CUE 16; 
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 58.86;
+adrift-oscillators-new-pitch 60.5;
+adrift-oscillators-new-pitch 64.69;
+
+-----------------------------------------------------
+
+# CUE 17; 
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 55.69;
+adrift-oscillators-new-pitch 58.5;
+adrift-oscillators-new-pitch 61.86;
+adrift-oscillators-new-pitch 65.;
+
+-----------------------------------------------------
+
+# CUE 18; 
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 49.;
+adrift-oscillators-new-pitch 52.;
+adrift-oscillators-new-pitch 52.86;
+adrift-oscillators-new-pitch 56.;
+
+-----------------------------------------------------
+
+# CUE 19; 
+adrift-interlude2a-go bang;
+
+-----------------------------------------------------
+
+# CUE 20; 
+adrift-interlude2b-go bang;
+
+-----------------------------------------------------
+#####################################################
+
+# SECTION 3 START; 
+# CUE 21;
+adrift-interlude2a-fadeout bang;
+adrift-interlude2b-fadeout bang;
+
+-----------------------------------------------------
+
+# CUE 22;
+adrift-set-section3 bang;
+adrift-s3c1-go bang;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 49.;
+adrift-oscillators-new-pitch 52.86;
+adrift-oscillators-new-pitch 54.5;
+adrift-oscillators-new-pitch 56.;
+adrift-oscillators-new-pitch 76.;
+
+-----------------------------------------------------
+
+# CUE 23;
+adrift-s3c2-go bang;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 47.;
+adrift-oscillators-new-pitch 49.69;
+adrift-oscillators-new-pitch 52.;
+adrift-oscillators-new-pitch 57.5;
+adrift-oscillators-new-pitch 76.;
+
+-----------------------------------------------------
+
+# CUE 24;
+adrift-s3c3-go bang;
+del 2813;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 50.;
+adrift-oscillators-new-pitch 53.86;
+adrift-oscillators-new-pitch 57.;
+adrift-oscillators-new-pitch 59.69;
+adrift-oscillators-new-pitch 77.;
+
+-----------------------------------------------------
+
+# CUE 25;
+adrift-s3c4-go bang;
+
+-----------------------------------------------------
+
+# CUE 26;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 47.;
+adrift-oscillators-new-pitch 56.69;
+adrift-oscillators-new-pitch 62.86;
+adrift-oscillators-new-pitch 77.;
+
+-----------------------------------------------------
+
+# CUE 27;
+adrift-s3c5-go bang;
+
+-----------------------------------------------------
+
+# CUE 28;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 50.;
+adrift-oscillators-new-pitch 53.86;
+adrift-oscillators-new-pitch 55.5;
+adrift-oscillators-new-pitch 59.69;
+adrift-oscillators-new-pitch 77.;
+del 938;
+adrift-s3c6-go bang;
+
+-----------------------------------------------------
+
+# CUE 29;
+adrift-s3c7-go bang;
+
+-----------------------------------------------------
+
+# CUE 30; 
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 44.86;
+adrift-oscillators-new-pitch 53.;
+adrift-oscillators-new-pitch 60.;
+adrift-oscillators-new-pitch 62.69;
+adrift-oscillators-new-pitch 78.;
+del 5625;
+adrift-s3c8-go bang;
+
+-----------------------------------------------------
+
+# CUE 31;
+adrift-s3c9-go bang;
+
+-----------------------------------------------------
+
+# CUE 32;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 51.;
+adrift-oscillators-new-pitch 54.86;
+adrift-oscillators-new-pitch 56.5;
+adrift-oscillators-new-pitch 58.;
+adrift-oscillators-new-pitch 78.;
+del 2813;
+adrift-s3c10-go bang;
+
+-----------------------------------------------------
+
+# CUE 33;
+adrift-s3c11-go bang;
+
+-----------------------------------------------------
+
+# CUE 34;
+adrift-s3c12-go bang;
+del 3750;
+adrift-oscillators-fade-previous bang;
+adrift-oscillators-new-pitch 48.;
+adrift-oscillators-new-pitch 51.86;
+adrift-oscillators-new-pitch 55.;
+adrift-oscillators-new-pitch 65.5;
+adrift-oscillators-new-pitch 80.;
+del 3750;
+adrift-s3c13-go bang;
+
+-----------------------------------------------------
+
+# CUE 35;
+adrift-s3c14-go bang;
+del 6563;
+adrift-s3c15-go bang;
+ 
+-----------------------------------------------------
+
+# CUE 36;
+adrift-s3c16-go bang;
+del 938; 
+# from here to end do not fade previous sine tones;
+adrift-oscillators-new-pitch 48.69;
+adrift-oscillators-new-pitch 58.;
+adrift-oscillators-new-pitch 66.86;
+adrift-oscillators-new-pitch 81.;
+del 3750;
+adrift-s3c17-go bang;
+
+-----------------------------------------------------
+
+# CUE 37;
+adrift-s3c18-go bang;
+del 3750;
+adrift-s3c19-go bang;
+
+-----------------------------------------------------
+# CUE 38;
+adrift-s3c20-go bang;
+adrift-oscillators-reserve-pitch 48.69;
+adrift-oscillators-reserve-pitch 58.;
+adrift-oscillators-reserve-pitch 66.86;
+adrift-oscillators-reserve-pitch 81.;
+del 3281;
+adrift-s3c21-go bang;
+adrift-s3c22-go bang;
+adrift-oscillators-new-pitch 40.;
+adrift-oscillators-new-pitch 43.86;
+adrift-oscillators-new-pitch 47.;
+adrift-oscillators-new-pitch 52.;
+adrift-oscillators-new-pitch 53.;
+adrift-oscillators-new-pitch 61.69;
+adrift-oscillators-new-pitch 67.86;
+adrift-oscillators-new-pitch 82.5;
+
+
+-----------------------------------------------------
+
+# CUE 39; 
+adrift-final-chords-force-up bang;
+adrift-oscillators-new-pitch 42.;
+adrift-oscillators-new-pitch 51.69;
+adrift-oscillators-new-pitch 69.86;
+adrift-oscillators-new-pitch 91.;
+adrift-oscillators-new-pitch 96.;
+
+adrift-oscillators-reserve-pitch 48.69;
+adrift-oscillators-reserve-pitch 58.;
+adrift-oscillators-reserve-pitch 66.86;
+adrift-oscillators-reserve-pitch 81.;
+adrift-oscillators-reserve-pitch 40.;
+adrift-oscillators-reserve-pitch 43.86;
+adrift-oscillators-reserve-pitch 47.;
+adrift-oscillators-reserve-pitch 52.;
+adrift-oscillators-reserve-pitch 53.;
+adrift-oscillators-reserve-pitch 61.69;
+adrift-oscillators-reserve-pitch 67.86;
+adrift-oscillators-reserve-pitch 82.5;
+
+-----------------------------------------------------
+
+# CUE 40; 
+adrift-final-chords-force-up bang;
+adrift-oscillators-new-pitch 45.;
+adrift-oscillators-new-pitch 77.41;
+adrift-oscillators-new-pitch 83.;
+adrift-oscillators-new-pitch 96.86;
+
+adrift-oscillators-reserve-pitch 48.69;
+adrift-oscillators-reserve-pitch 58.;
+adrift-oscillators-reserve-pitch 66.86;
+adrift-oscillators-reserve-pitch 81.;
+adrift-oscillators-reserve-pitch 40.;
+adrift-oscillators-reserve-pitch 43.86;
+adrift-oscillators-reserve-pitch 47.;
+adrift-oscillators-reserve-pitch 52.;
+adrift-oscillators-reserve-pitch 53.;
+adrift-oscillators-reserve-pitch 61.69;
+adrift-oscillators-reserve-pitch 67.86;
+adrift-oscillators-reserve-pitch 82.5;
+adrift-oscillators-reserve-pitch 42.;
+adrift-oscillators-reserve-pitch 51.69;
+adrift-oscillators-reserve-pitch 69.86;
+adrift-oscillators-reserve-pitch 91.;
+adrift-oscillators-reserve-pitch 96.;
+
+-----------------------------------------------------
+
+# CUE 41;
+adrift-final-chords-force-up bang;
+adrift-concluding-texture-go bang;
+adrift-oscillators-new-pitch 49.;
+adrift-oscillators-new-pitch 74.41;
+adrift-oscillators-new-pitch 80.;
+adrift-oscillators-new-pitch 93.86;
+
+adrift-oscillators-reserve-pitch 48.69;
+adrift-oscillators-reserve-pitch 58.;
+adrift-oscillators-reserve-pitch 66.86;
+adrift-oscillators-reserve-pitch 81.;
+adrift-oscillators-reserve-pitch 40.;
+adrift-oscillators-reserve-pitch 43.86;
+adrift-oscillators-reserve-pitch 47.;
+adrift-oscillators-reserve-pitch 52.;
+adrift-oscillators-reserve-pitch 53.;
+adrift-oscillators-reserve-pitch 61.69;
+adrift-oscillators-reserve-pitch 67.86;
+adrift-oscillators-reserve-pitch 82.5;
+adrift-oscillators-reserve-pitch 42.;
+adrift-oscillators-reserve-pitch 51.69;
+adrift-oscillators-reserve-pitch 69.86;
+adrift-oscillators-reserve-pitch 91.;
+adrift-oscillators-reserve-pitch 96.;
+adrift-oscillators-reserve-pitch 45.;
+adrift-oscillators-reserve-pitch 77.41;
+adrift-oscillators-reserve-pitch 83.;
+adrift-oscillators-reserve-pitch 96.86;
+
+-----------------------------------------------------
+
+# CUE 42; 
+adrift-final-chords-force-up bang;
+adrift-section3-concluding-texture-force-up bang;
+adrift-oscillators-new-pitch 39.;
+adrift-oscillators-new-pitch 52.86;
+adrift-oscillators-new-pitch 77.;
+adrift-oscillators-new-pitch 83.41;
+adrift-oscillators-new-pitch 96.69;
+
+adrift-oscillators-reserve-pitch 48.69;
+adrift-oscillators-reserve-pitch 58.;
+adrift-oscillators-reserve-pitch 66.86;
+adrift-oscillators-reserve-pitch 81.;
+adrift-oscillators-reserve-pitch 40.;
+adrift-oscillators-reserve-pitch 43.86;
+adrift-oscillators-reserve-pitch 47.;
+adrift-oscillators-reserve-pitch 52.;
+adrift-oscillators-reserve-pitch 53.;
+adrift-oscillators-reserve-pitch 61.69;
+adrift-oscillators-reserve-pitch 67.86;
+adrift-oscillators-reserve-pitch 82.5;
+adrift-oscillators-reserve-pitch 42.;
+adrift-oscillators-reserve-pitch 51.69;
+adrift-oscillators-reserve-pitch 69.86;
+adrift-oscillators-reserve-pitch 91.;
+adrift-oscillators-reserve-pitch 96.;
+adrift-oscillators-reserve-pitch 45.;
+adrift-oscillators-reserve-pitch 77.41;
+adrift-oscillators-reserve-pitch 83.;
+adrift-oscillators-reserve-pitch 96.86;
+adrift-oscillators-reserve-pitch 42.;
+adrift-oscillators-reserve-pitch 49.;
+adrift-oscillators-reserve-pitch 74.41;
+adrift-oscillators-reserve-pitch 80.;
+adrift-oscillators-reserve-pitch 93.86;
+
+-----------------------------------------------------
+
+# CUE 43; 
+adrift-section3-glitchy-curve-down bang;
+adrift-section3-concluding-texture-down bang;
+adrift-resonance-down bang;
+adrift-oscillators-kill bang;
+
